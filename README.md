@@ -7,6 +7,12 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
         IntroText = "Carregando Waffles"       
 }) --This Will Load The Script Hub
 
+local Tab = Window:MakeTab({
+	Name = "Creditos",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 OrionLib:MakeNotification({
 	Name = "Carregando",
 	Content = "Waffles Hub Carregado",
