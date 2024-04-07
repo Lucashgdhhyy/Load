@@ -1,11 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Waffles Hub| Discord Comming Soon", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
   local Window = OrionLib:MakeWindow({
-		Name = "Creditos",
+		Name = "Waffles Hub| Discord Ainda Nao pronto",
 		HidePremium = false,
 		SaveConfig = true,
 		ConfigFolder = "OrionTest",
-        IntroText = "Key Waffles"       
+        IntroText = "Carregando Waffles"       
 }) --This Will Load The Script Hub
 
 OrionLib:MakeNotification({
