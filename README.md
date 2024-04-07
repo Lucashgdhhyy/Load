@@ -79,6 +79,13 @@ Tab:AddButton({
       		end    
 })
 
+Tab:AddButton({
+	Name = "Tsuo Hub",
+	Callback = function()
+      		print("button pressed")         loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+      		end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "King Legacy",
 	Icon = "rbxassetid://4483345998",
@@ -126,3 +133,5 @@ Tab:AddButton({
       		print("button pressed")                    loadstring(game:HttpGet("https://raw.githubusercontent.com/r4mpage4/NoHaxV3/main/BladeBallNoHax%20V3"))(); 
   	end    
 })
+
+OrionLib:Init()
